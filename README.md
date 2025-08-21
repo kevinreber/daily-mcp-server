@@ -126,9 +126,9 @@ Real-time stock and cryptocurrency market data.
   - 🌍 **Timezone-Aware** - Proper handling of Google Calendar timezone data
   - 📊 **Conflict Context** - See events before/after each available slot
 - **Perfect For**:
-  - *"Find me 60 minutes free tomorrow afternoon"* 
-  - *"When can I schedule a 2-hour deep work session this week?"*
-  - *"Show me 30-minute slots available between meetings"*
+  - _"Find me 60 minutes free tomorrow afternoon"_
+  - _"When can I schedule a 2-hour deep work session this week?"_
+  - _"Show me 30-minute slots available between meetings"_
 - **Real API**: ✅ Google Calendar integration with smart gap analysis
 
 ## 🚀 Quick Start

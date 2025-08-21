@@ -61,9 +61,9 @@ def create_app() -> Flask:
         "swagger": "2.0",
         "info": {
             "title": "Daily MCP Server API",
-            "description": """🎉 **Phase 1.5 Complete** - Model Context Protocol server with both READ and WRITE operations!
+            "description": """🚀 **Phase 2.2 In Progress** - Model Context Protocol server with SMART SCHEDULING AI!
 
-**🆕 NEW: Calendar Event Creation** - First write tool with smart conflict detection!
+**🆕 NEW: AI-Powered Smart Time Finding** - Intelligent scheduling with preference scoring!
 
 **📊 Read Operations**:
 🌤️ **Weather**: Real-time conditions via OpenWeatherMap  
@@ -74,15 +74,20 @@ def create_app() -> Flask:
 
 **✨ Write Operations**:
 📅+ **Calendar Create**: Create events with conflict detection and multi-calendar support
+📅✏️ **Calendar Update**: Modify existing events with change tracking
+📅🗑️ **Calendar Delete**: Remove events with confirmation details
 
-**🎯 Features**: Real APIs, conflict detection, multi-calendar support, production deployment
+**🧠 Smart Scheduling**:
+📅🔍 **Find Free Time**: AI-powered time slot discovery with preference scoring, multi-day search, and timezone handling
+
+**🎯 Features**: Real APIs, smart conflict detection, multi-calendar support, timezone-aware, production deployment
 **⚡ Quick Start**: All endpoints require POST with JSON body. Try `/docs` for interactive testing!""",
             "contact": {
                 "responsibleOrganization": "Personal Learning Project",
                 "responsibleDeveloper": "Kevin Reber",
                 "email": "kevinreber1@gmail.com"
             },
-            "version": "0.2.0",
+            "version": "0.3.1",
             "license": {
                 "name": "MIT"
             }
@@ -96,7 +101,7 @@ def create_app() -> Flask:
             {"name": "Health", "description": "System health and status monitoring"},
             {"name": "Tools", "description": "Available MCP tools and capabilities"},
             {"name": "Weather", "description": "🌤️ Real-time weather via OpenWeatherMap API"},
-            {"name": "Calendar", "description": "📅 Google Calendar R/W - Events, creation, conflict detection"},
+            {"name": "Calendar", "description": "📅 Google Calendar CRUD + 🧠 Smart Scheduling - Events, creation, updates, deletion, intelligent time finding"},
             {"name": "Financial", "description": "💰 Live stock and crypto market data"},
             {"name": "Mobility", "description": "🚗 Real-time commute and traffic information"},
             {"name": "Todo", "description": "✅ Task management with smart filtering"}
